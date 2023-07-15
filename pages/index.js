@@ -1,7 +1,10 @@
+// template
+import HomePage from "@/components/templates/HomePage";
+
 export default function Home() {
   return (
     <>
-      <h1>Food Show</h1>
+      <HomePage />
     </>
   );
 }
