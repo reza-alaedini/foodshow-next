@@ -13,7 +13,7 @@ function CategoriesPage() {
   const searchHandler = () => {
     router.push({
       pathname: "/categories",
-      //   query: { name: "parsa", lastname: "alaei" },
+      //   query: { name: "parsa", lastname: "alaei" }, // --> /categories?name=parsa&lastname=alaei
       query,
     });
   };
