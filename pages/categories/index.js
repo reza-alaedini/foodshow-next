@@ -1,9 +1,9 @@
 //template
 import CategoriesPage from "@/components/templates/CategoriesPage";
 
-function Categories({ filteredData }) {
-  console.log(filteredData);
-  return <CategoriesPage />;
+function Categories({ data }) {
+  console.log(data);
+  return <CategoriesPage data={data} />;
 }
 
 export default Categories;
@@ -40,6 +40,6 @@ export async function getServerSideProps(context) {
   });
 
   return {
-    props: { filteredData },
+    props: { data: filteredData },
   };
 }
