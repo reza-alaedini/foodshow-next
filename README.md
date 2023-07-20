@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Next's Concepts used:
+- SSG (fallback)
+- ISR (revalidate)
+- SSR
+- /menu route is SSG + ISR
+- /categories route is SSR
+- fetching data with [API](https://github.com/reza-alaedini/api-foodshow) that i deployed on vercel
+- Working with "Link, useRouter" in next
+- File-based & Dynamic routing
+- Using .env for keeping some data safe
+
 ## Getting Started
 
 First, run the development server:
